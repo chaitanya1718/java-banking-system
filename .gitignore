@@ -1,0 +1,35 @@
+
+
+# Node / Vite
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Java / Maven / backend build output
+target/
+.m2/
+
+# IDE files
+.vscode/
+.idea/
+.settings/
+.classpath
+.project
+
+# Logs
+*.log
+server.out.log
+server.err.log
+
+# OS files
+.DS_Store
+Thumbs.db
